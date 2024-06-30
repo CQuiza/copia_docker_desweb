@@ -1,0 +1,16 @@
+<layer>
+  <name>pipes</name>
+  <id>LayerInfoImpl--337982ba:18fd4820f66:-7fff</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--337982ba:18fd4820f66:-8000</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-01 15:54:04.704 UTC</dateCreated>
+</layer>

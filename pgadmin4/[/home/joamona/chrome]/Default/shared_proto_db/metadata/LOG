@@ -1,0 +1,3 @@
+2024/05/23-14:28:59.837 a390 Reusing MANIFEST /home/vagrant/docker/pgadmin4/[/home/joamona/chrome]/Default/shared_proto_db/metadata/MANIFEST-000001
+2024/05/23-14:28:59.837 a390 Recovering log #3
+2024/05/23-14:28:59.838 a390 Reusing old log /home/vagrant/docker/pgadmin4/[/home/joamona/chrome]/Default/shared_proto_db/metadata/000003.log 

@@ -1,0 +1,36 @@
+version: '3.9'
+
+#This service depends on the postgis_postgis docker network
+#Start the posrgis container first
+
+#1. Create the folders data and servers
+#2. Create the file servers/servers.json, empty
+#3. Change the owner for the folder data
+#     sudo chown -R 5050:5050 data
+#4. Start the server:
+#   docker-compose up
+#5. Visit the page http://localost:5050
+#por un bug de docker-compose, no lee correctamente .env.dev
+#para la sustitución de variables en el propio docker compose
+#sinembargo .env sí lo lee.
+#Como se puede tener varios ficheros de configuración, uso los dos
+
+services:
+   pgadmin4:
+      container_name: pgadmin4
+      image: dpage/pgadmin4:8.3
+      env_file:
+        - .env
+        - .env.dev
+      volumes:
+        - ./data:/var/lib/pgadmin
+        - ./servers/servers.json:/pgadmin4/servers.json
+      ports:
+        - ${FORWARDED_PORT}:80
+      restart: "no"
+      networks:
+        - postgis_postgis
+        
+networks:
+  postgis_postgis:
+      external: true

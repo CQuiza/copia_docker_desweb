@@ -1,0 +1,16 @@
+<layer>
+  <name>constructions</name>
+  <id>LayerInfoImpl-1e5b7bf5:18fca2f7f38:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1e5b7bf5:18fca2f7f38:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-30 16:02:30.1 UTC</dateCreated>
+</layer>
